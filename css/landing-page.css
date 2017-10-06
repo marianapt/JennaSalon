@@ -17,14 +17,19 @@
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lora";
   font-weight: 700;
 }
+
+
+
+
+
 
 .intro-header {
   padding-top: 50px;
   padding-bottom: 50px;
-  text-align: center;
+  text-align: left;
   color: #f8f8f8;
   background: url(../img/intro-bg.jpg) no-repeat center center;
   background-size: cover;
@@ -38,7 +43,8 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message>h1 {
-  margin: 0;
+
+  margin-left: 20px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 5em;
 }
