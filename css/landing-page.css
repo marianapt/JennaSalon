@@ -25,7 +25,7 @@ h6 {
 }
 
 .intro-message {
-  padding-left: 65%;
+  padding-right: 65%;
   position: relative;
   padding-top: 20%;
   padding-bottom: 20%;
@@ -38,12 +38,15 @@ h6 {
 }
 
 .intro-divider {
-  width: 400px;
+  margin-left: 20px;
+  width: 200px;
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .intro-message>h3 {
+  margin-left: 20px;
+  
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -67,7 +70,7 @@ h6 {
     margin-bottom: 0;
   }
   .intro-divider {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -160,11 +163,11 @@ p.copyright {
   .intro-message>h1 {
     margin-left: 20px;
   
-    font-size: 16px;
+    font-size: 12px;
   }
   
   .intro-divider {
-    width: 100px;
+    width: 50px;
   
   }
   
