@@ -16,8 +16,9 @@ h6 {
 }
 
 .intro-header {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-left: 20px;
+  padding-top: 90px;
+ padding-right: 200px;
   text-align: left;
   color: #f8f8f8;
   background: url(../img/intro-bg.jpg) no-repeat center center;
@@ -25,6 +26,7 @@ h6 {
 }
 
 .intro-message {
+  white-space: nowrap;
   padding-right: 65%;
   position: relative;
   padding-top: 20%;
@@ -32,14 +34,15 @@ h6 {
 }
 
 .intro-message>h1 {
-  margin-left: 20px;
+  margin-left: 15px;
+  padding-right: 380px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 5em;
+  font-size: 2em;
 }
 
 .intro-divider {
   margin-left: 20px;
-  width: 200px;
+  width: 250px;
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -69,9 +72,7 @@ h6 {
   ul.intro-social-buttons>li:last-child {
     margin-bottom: 0;
   }
-  .intro-divider {
-    width: 50%;
-  }
+ 
 }
 
 .network-name {
@@ -127,6 +128,13 @@ h6 {
   margin-top: 0;
 }
 
+
+@media(max-width:1400px) {
+  .intro-divider {
+    width: 300px;
+  }
+  }
+  
 @media(max-width:1199px) {
   ul.banner-social-buttons {
     float: left;
@@ -134,12 +142,33 @@ h6 {
   }
 }
 
-@media(max-width:767px) {
+@media(max-width:980px) {
+.intro-divider {
+  width: 200px;
+
+}
+
+h3{ font-size:18px; }
+}
+
+
+
+@media(max-width:890px) {
+  .intro-divider {
+    width: 100px;
+  }
+  }
+  
+
+@media(max-width:720px) {
   .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
   }
+  .intro-message h1 { font-size: 28px;}
+
+
   ul.banner-social-buttons>li {
     display: block;
     margin-bottom: 20px;
@@ -147,6 +176,11 @@ h6 {
   }
   ul.banner-social-buttons>li:last-child {
     margin-bottom: 0;
+  }
+  
+  .intro-divider {
+    width: 200px;
+
   }
 }
 
@@ -159,11 +193,29 @@ p.copyright {
   margin: 15px 0 0;
 }
 
+
+@media screen and (max-width: 683px) {
+  .intro-message h1 {
+    margin-left: 15px;
+    font-kerning: normal;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+.intro-divider{
+  width: 140px;
+}
+.intro-message h3{
+  font-size: 16px;
+  white-space: nowrap;
+}
+}
+
+
 @media screen and (max-width: 500px) {
-  .intro-message>h1 {
-    margin-left: 20px;
-  
-    font-size: 12px;
+  .intro-message h1 {
+    margin-left: 0px;
+    font-kerning: normal;
+    font-size: 20px;
   }
   
   .intro-divider {
@@ -172,7 +224,8 @@ p.copyright {
   }
   
   .intro-message>h3 {
- font-size: 12px;
+ font-size: 16px;
+ font-kerning: normal;
   }
 
   html, body {
