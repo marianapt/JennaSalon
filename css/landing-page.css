@@ -13,7 +13,7 @@ html {
  padding-right: 200px;
   text-align: left;
   color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background: url(../img/jenna1.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -27,7 +27,7 @@ html {
 }
 
 .intro-message>h2 {
-  line-height: 10px;
+  line-height: 5px;
   font-family: 'Playfair Display SC', serif;
   margin-left: 15px;
   padding-right: 380px;
@@ -36,7 +36,7 @@ html {
 }
 
 .intro-divider {
-  line-height: 5px;
+  line-height: 2px !important;
   margin-left: 20px;
   width: 250px;
   border-top: 1px solid #f8f8f8;
@@ -44,7 +44,7 @@ html {
 }
 
 .intro-message>h3 {
-  line-height: 5px;
+  line-height: 2px !important;
   font-family: 'Playfair Display SC', serif;
   margin-left: 20px;
   font-size: 26px;
@@ -59,7 +59,7 @@ html {
   .intro-message {
     padding-bottom: 15%;
   }
-  .intro-message>h1 {
+  .intro-message>h2 {
     font-size: 3em;
   }
   ul.intro-social-buttons>li {
@@ -129,7 +129,17 @@ html {
 
 @media(max-width:1400px) {
   .intro-divider {
-    width: 300px;
+    width: 350px;
+    margin-left: -10px;
+    line-height: 5px;
+    
+
+  }
+
+  .intro-message h3{ 
+    line-height: 5px;
+
+
   }
   }
   
@@ -137,6 +147,7 @@ html {
   ul.banner-social-buttons {
     float: left;
     margin-top: 15px;
+    margin-left: -20px;
   }
 }
 
@@ -193,7 +204,6 @@ line-height: 10px;
 
   }
   .intro-message h3{
-    margin-left: -7px;
 
   }
 }
@@ -208,7 +218,7 @@ p.copyright {
 }
 
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 640px) {
   .intro-message h2 {
     margin-left: -7px;
     line-height: 5px;
@@ -239,7 +249,7 @@ p.copyright {
   }
   
   .intro-divider {
-    width: 50px;
+    width: 200px;
   
   }
   
@@ -282,4 +292,25 @@ flex-wrap: wrap;
   font-size: 14px;
   white-space: nowrap;
 }
+}
+
+
+
+
+
+@media screen and (max-width: 119px) {
+  .intro-message h2 {
+    margin-left: -7px;
+    line-height: 1px;
+ 
+    font-kerning: normal;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+.intro-divider{
+  margin-left: -10px;
+  line-height: 1px;
+  width: 250px;
+}
+
 }
