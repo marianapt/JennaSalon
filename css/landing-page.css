@@ -13,8 +13,8 @@ html {
  padding-right: 200px;
   text-align: left;
   color: #f8f8f8;
-  background: url(../img/jenna1.jpg) no-repeat  center;
-  background-size: cover;
+  background: url(../img/jenna1.jpg) no-repeat;
+  background-size: cover; 
 }
 
 .intro-message {
@@ -317,9 +317,3 @@ flex-wrap: wrap;
 
 
 /* about me and mission statement */
-
-@media only screen and (max-width: 600px) {
-  body {
-      background-size: cover;
-  }
-}
